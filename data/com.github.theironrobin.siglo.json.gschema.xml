@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="siglo2">
+	<schema id="com.github.theironrobin.siglo.json" path="/com/github/theironrobin/siglo/json/">
+	</schema>
+</schemalist>

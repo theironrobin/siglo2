@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=siglo2
+Exec=siglo2
+Icon=com.github.theironrobin.siglo.json
+Terminal=false
+Type=Application
+Categories=GTK;
+StartupNotify=true
