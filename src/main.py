@@ -12,7 +12,7 @@ class Siglo2Application(Gtk.Application):
     """The main application singleton class."""
 
     def __init__(self):
-        super().__init__(application_id='com.github.theironrobin.siglo.json',
+        super().__init__(application_id='com.github.theironrobin.siglo2.json',
                          flags=Gio.ApplicationFlags.FLAGS_NONE)
         self.create_action('quit', self.quit, ['<primary>q'])
         self.create_action('about', self.on_about_action)

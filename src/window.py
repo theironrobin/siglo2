@@ -2,7 +2,7 @@
 from gi.repository import Gtk
 
 
-@Gtk.Template(resource_path='/com/github/theironrobin/siglo/json/window.ui')
+@Gtk.Template(resource_path='/com/github/theironrobin/siglo2/json/window.ui')
 class Siglo2Window(Gtk.ApplicationWindow):
     __gtype_name__ = 'Siglo2Window'
 
@@ -20,6 +20,6 @@ class AboutDialog(Gtk.AboutDialog):
         self.props.version = "0.1.0"
         self.props.authors = ['alex']
         self.props.copyright = '2022 alex'
-        self.props.logo_icon_name = 'com.github.theironrobin.siglo.json'
+        self.props.logo_icon_name = 'com.github.theironrobin.siglo2.json'
         self.props.modal = True
         self.set_transient_for(parent)

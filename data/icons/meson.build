@@ -1,4 +1,4 @@
-application_id = 'com.github.theironrobin.siglo.json'
+application_id = 'com.github.theironrobin.siglo2.json'
 
 scalable_dir = join_paths('hicolor', 'scalable', 'apps')
 install_data(

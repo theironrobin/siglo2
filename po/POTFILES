@@ -1,6 +1,6 @@
-data/com.github.theironrobin.siglo.json.desktop.in
-data/com.github.theironrobin.siglo.json.appdata.xml.in
-data/com.github.theironrobin.siglo.json.gschema.xml
+data/com.github.theironrobin.siglo2.json.desktop.in
+data/com.github.theironrobin.siglo2.json.appdata.xml.in
+data/com.github.theironrobin.siglo2.json.gschema.xml
 src/window.ui
 src/main.py
 src/window.py
