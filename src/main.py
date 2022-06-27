@@ -3,12 +3,13 @@ import sys
 import gi
 
 gi.require_version('Gtk', '4.0')
+gi.require_version('Adw', '1')
 
-from gi.repository import Gtk, Gio
+from gi.repository import Gtk, Gio, Adw
 from .window import Siglo2Window, AboutDialog
 
 
-class Siglo2Application(Gtk.Application):
+class Siglo2Application(Adw.Application):
     """The main application singleton class."""
 
     def __init__(self):
